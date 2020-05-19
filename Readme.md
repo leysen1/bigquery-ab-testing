@@ -5,7 +5,7 @@
 Git clone this repository:
 
 ```
-git clone https://github.com/KyleOS/google-analytics-api
+git clone https://github.com/leysen1/bigquery-ab-testing
 ```
 
 Download and install the [Anaconda Python distribution](https://www.anaconda.com/distribution/).
@@ -15,8 +15,7 @@ Then activate a conda virtual environment with
 ```
 conda env create -f environment.yml
 conda activate dev
-- pip install --upgrade google-api-python-client
-- pip install --upgrade oauth2client
+- pip install google-cloud-bigquery
 - pip install plotly==4.6.0
 - pip install cufflinks
 - pip install httplib2
