@@ -1,6 +1,6 @@
 main: "notebook.ipynb"
 preview: "images/preview.png"
-title: "Measuring SEO with Google Analytics"
+title: "AB Testing Landing Pages"
 description: "Visualising and analysing the results from A/B tests of different landing pages for a large online eCommerce business."
 tags:
   - google bigquery
