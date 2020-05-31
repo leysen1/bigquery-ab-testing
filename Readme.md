@@ -31,14 +31,16 @@ conda env export --no-builds > environment.yml
 
 ## Setting Up BigQuery Connection 
 
-This link takes you through the steps to set up a connection with your bigquery account.
-https://cloud.google.com/bigquery/docs/quickstarts/quickstart-client-libraries#client-libraries-install-python
+Google makes it simple to set up a BigQuery connection through python using some of their [walkthrough tutorials](https://cloud.google.com/bigquery/docs/quickstarts/quickstart-client-libraries#client-libraries-install-python).
 
-The main points are to:
-- Install the python google-cloud-bigquery python library
-- Create a service account for the Google project your working in
-- Create a key for the service account and download the .json file
-- Enable the BigQuery API
+You need to make sure you have selected or created an Google Cloud Project in the [Google Cloud Platform](https://console.cloud.google.com/) and enable the BigQuery API by typing BigQuery API in the search.
+
+In order to set up the permissions to access the BigQuery, you will need to create a service account key under your chosen project. Make sure you give the service account a role of Project>Owner and save the .json key file created on your Desktop.
+ 
+This key will allow you to connect to your BigQuery database and use SQL to query the data, as shown in the notebook.
+
+Make sure you've also installed the necessary libraries in python to run the notebook.
+
 
 ## Usage
 
